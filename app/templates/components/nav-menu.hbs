@@ -1,0 +1,5 @@
+{{yield}}
+{{!-- app/components/nav-menu.hbs --}}
+{{#each locales as |loc|}}
+  <option value="{{loc.id}}">{{loc.text}}</option>
+{{/each}}
