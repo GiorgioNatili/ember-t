@@ -1,6 +1,6 @@
 import { moduleForComponent, test } from 'ember-qunit';
 
-moduleForComponent('nav-menu', 'Unit | Component | nav menu', {
+moduleForComponent('lang-menu', 'Unit | Component | nav menu', {
   // Specify the other units that are required for this test
   // needs: ['component:foo', 'helper:bar'],
   unit: true

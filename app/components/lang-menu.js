@@ -1,4 +1,4 @@
-// app/components/nav-menu.js
+// app/components/lang-menu.js
 import Ember from "ember";
 const { Component, computed, inject } = Ember;
 
