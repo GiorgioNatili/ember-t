@@ -18,7 +18,6 @@ export default Component.extend({
       return module.substr(module.indexOf(matchKey) + matchKey.length);
     });
     
-    debugger;
     var t = this.t;
     return locales.map(function (loc) {
       return { id: loc, text: t('language-select.language.' + loc, 0) };
