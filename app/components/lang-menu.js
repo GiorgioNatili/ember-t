@@ -1,7 +1,7 @@
 // app/components/lang-menu.js
 import Ember from "ember";
 
-const { Component, computed, inject } = Ember;
+const { Component, set, computed, inject } = Ember;
 
 export default Component.extend({
   tagName: 'select',
@@ -28,6 +28,7 @@ export default Component.extend({
   // in the template, but the template doesn't include the component's own
   // tag yet. See https://github.com/emberjs/rfcs/pull/60
   change: function() {
-    this.get('i18n').set('locale', this.$().val());
+    var application = this.container.lookup('application:main');
+    set(application, 'locale',  this.$().val());
   }
 });
