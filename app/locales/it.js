@@ -1,14 +1,25 @@
 export default {
 
+  'language-select': {
+  
+    language: {
+                it: 'Italiano',
+                en: 'Inglese'
+              
+              }
+  
+  },
+  
   home: {
-          title: 'Benvenuti'
+          one: 'Benvenuto',
+          other: 'Benvenuti'
         },
   products: {
-              title: 'Prodotti'
+              one: 'Prodotto',
+              other: 'Prodotti'
             },
   contact: {
-             title: 'Contatti'
+             one: 'Contatto',
+             other: 'Contatti'
            }
-
-
 };
